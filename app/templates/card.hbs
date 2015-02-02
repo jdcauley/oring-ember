@@ -1,0 +1,11 @@
+<div class="">
+  {{input value=searchQuery}}
+</div>
+<ul>
+  {{#each item in searchResults}}
+  <div>
+    <h2>{{item.firstName}} {{item.lastname}}</h2>
+
+  </div>
+  {{/each}}
+</ul>
